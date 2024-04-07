@@ -6,7 +6,7 @@
     margin-top: 100px;
     background: var(--background);
     height: 80vh;
-    width: 100%;
+    max-width: 100%;
 }
 
 .contacts h2{
@@ -44,7 +44,7 @@
 } 
 
 .contacts .contact svg{
-    width: 30px;
+    max-width: 30px;
 }
 
 .contacts .content .contact p{
@@ -65,7 +65,7 @@
     text-decoration: none;
     color: var(--background);
     background-color: var(--text);
-    width: 250px;
+    max-width: 250px;
     height: 55px;
     font-size: 24px;
     border-radius: 10px;
