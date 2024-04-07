@@ -1,4 +1,4 @@
-.rating{
+/* .rating{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +9,7 @@
     height: 120vh;
     width: 85vw;
 }
+
 
 .rating h2{
     color: var(--text);
@@ -77,4 +78,80 @@
 .rating .cards .card .message p{
     text-align: center;
     font-size: 18px;
+} */
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 80px;
+    background: var(--background);
+    width: 85vw;
+}
+
+
+.rating h2{
+    color: var(--text);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.rating .cards{
+    width: 70vw;
+    height: 240vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+
+.rating .cards .card{
+    background-color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.rating .cards .card img.profile{
+    width: 60px;
+    margin-top: -80px;
+    padding-bottom: 30px;
+}
+
+.rating .cards .card h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.rating .cards .card .stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating .cards .card .stars img{
+    width: 15px;
+}
+
+.rating .cards .card .message {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating .cards .card .message p{
+    text-align: center;
+    font-size: 16px;
 }

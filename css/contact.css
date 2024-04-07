@@ -1,4 +1,4 @@
-.contacts{
+/* .contacts{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,5 +80,88 @@
 }
 
 .contact .content .map{
+    border-radius: 10px;
+} */
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: var(--background);
+    height: 80vh;
+    width: 100%;
+}
+
+.contacts h2{
+    color: var(--text);
+    text-align: center;
+    font-size: 25px;
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+
+.contacts .content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contacts .content .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contacts .content .contact .location, 
+.contacts .content .contact .phone,
+.contacts .content .contact .email,
+.contacts .content .contact .whatsapp,
+.contacts .content .contact .instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    text-decoration: none;
+    color: var(--text);
+
+    padding-bottom: 10px;
+} 
+
+.contacts .contact svg{
+    width: 15px;
+}
+
+.contacts .content .contact p{
+    font-size: 12px;
+}
+
+.contacts .content .contact .puzzle-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contacts .content .contact .puzzle-link .link{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.contacts .content .contact .puzzle-link .link a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--background);
+    background-color: var(--text);
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
     border-radius: 10px;
 }
