@@ -89,7 +89,9 @@
     border-radius: 80px;
     background: var(--background);
     width: 85vw;
-    height: 100%;
+    height: 250vh;
+
+    padding: 7rem 3rem 3rem 3rem;
 }
 
 
@@ -97,10 +99,11 @@
     color: var(--text);
     text-align: center;
     font-size: 25px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .rating .cards{
+    margin-top: 20px;
     width: 70vw;
     display: flex;
     justify-content: center;
