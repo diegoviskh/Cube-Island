@@ -86,9 +86,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    border-radius: 80px;
     background: var(--background);
-    width: 85vw;
+    width: 100vw;
     height: 250vh;
 }
 
