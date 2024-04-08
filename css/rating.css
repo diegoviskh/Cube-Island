@@ -90,13 +90,12 @@
     width: 100%;
     height: 300vh;
 }
-/* oxi */
 
 .rating h2{
     color: var(--text);
     text-align: center;
     font-size: 24px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .rating .cards{
