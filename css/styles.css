@@ -6,11 +6,11 @@
 }
 
 :root{
-    --background: #00AA3A;
+    --background: #48009b;
     --hover: #477096;
     --text: #f3f2f2;
     --shadow: #2f6eb6cc;
-    --footer: #001F0A;
+    --footer: #280057;
 }
 
 ::-webkit-scrollbar{
