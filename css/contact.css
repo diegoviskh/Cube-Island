@@ -51,34 +51,6 @@
     font-size: 20px;
 }
 
-.contacts .content .contact .puzzle-link{
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contacts .content .contact .puzzle-link a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--background);
-    background-color: var(--text);
-    width: 250px;
-    height: 55px;
-    font-size: 24px;
-    border-radius: 10px;
-
-    transition: all 300ms;
-}
-
-.contacts .content .contact .puzzle-link a:hover{
-    background-color: var(--background);
-    color: var(--text);
-    transform: scale(1.02);
-}
-
 .contact .content .map{
     border-radius: 10px;
 }
