@@ -377,6 +377,7 @@
     .contacts .content{
         display: flex;
         gap: 100px;
+        margin-bottom: 60px;
     }
     
     
