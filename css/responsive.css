@@ -413,9 +413,17 @@
 }
 
 @media only screen and (min-width: 1900px){
+    .home{
+        margin: 0 auto 50px 0;
+    }
+
     .home .puzzle .animation{
         width: 700px;
         height: 700px;
+    }
+
+    .rating{
+        margin: 50px auto;
     }
 
     .rating .cards .card img.profile{
@@ -424,6 +432,10 @@
 
     .rating .cards .card{
         width: 17vw;
+    }
+
+    .contacts{
+        margin: 50px auto 0 auto;
     }
 
     .contacts .content{
