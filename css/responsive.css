@@ -1,0 +1,167 @@
+@media only screen and (max-width: 425px){
+    .home{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 50px 50px;
+        
+    }
+    
+    .home h1{
+        font-size: 35px;
+        color: var(--text);
+        text-align: center;
+    }
+    
+    .home p{
+        width: 90vw;
+        font-size: 12px;
+        color: var(--text);
+        text-align: justify;
+        flex-wrap: wrap;
+    }
+    
+    .home .puzzle-link a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--background);
+        background-color: var(--text);
+        width: 80vw;
+        height: 5vh;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    .home .puzzle{
+        display: none;
+    }
+
+    .rating{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        border-radius: 50px;
+        background: var(--background);
+        padding: 50px;
+        height: 100%;
+        width: 100vw;
+    }
+    
+    
+    .rating h2{
+        font-size: 25px;
+    }
+    
+    .rating .cards{
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .rating .cards .card{
+        background-color: var(--text);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60vw;
+        height: 300px;
+        border-radius: 10px;
+    
+        transition: transform 300ms;
+    }
+    
+    .rating .cards .card img.profile{
+        width: 15vw;
+        margin-top: -100px;
+        padding-bottom: 25px;
+    }
+    
+    .rating .cards .card h3{
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .rating .cards .card .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rating .cards .card .stars img{
+        width: 15px;
+        padding-bottom: 30px;
+    }
+    
+    .rating .cards .card .message {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .rating .cards .card .message p{
+        width: 30vw;
+        font-size: 14px;
+    }
+
+    .contacts{
+        justify-content: flex-start;
+        margin-top: 80px;
+        width: 100%;
+        height: 55vh;
+        padding: 50px;
+    }
+    
+    .contacts h2{
+        font-size: 25px;
+    }
+    
+    .contacts .content{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    
+    .contacts .content .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    .contacts .content .contact .location, 
+    .contacts .content .contact .phone,
+    .contacts .content .contact .email,
+    .contacts .content .contact .whatsapp,
+    .contacts .content .contact .instagram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 5px;
+    } 
+    
+    .contacts .contact svg{
+        width: 25px;
+    }
+    
+    .contacts .content .contact p{
+        font-size: 15px;
+    }
+
+    .contacts .content .map{
+        display: none;
+    }
+}
