@@ -16,7 +16,7 @@
     
     .home p{
         width: 90vw;
-        font-size: 12px;
+        font-size: 14px;
         color: var(--text);
         text-align: justify;
         flex-wrap: wrap;
