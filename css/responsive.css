@@ -275,3 +275,166 @@
         font-size: 14px;
     }
 }
+
+@media only screen and (min-width: 1200px){
+    .home{
+        width: 100%;
+        max-width: 2000px;
+    }
+    
+    .home h1{
+        font-size: 60px;
+    }
+    
+    .home p{
+        width: 50vw;
+        font-size: 17px;
+    }
+    
+    .home .puzzle-link a{
+        width: 350px;
+        height: 70px;
+        font-size: 25px;
+    }
+    
+    .home .puzzle{
+        padding-left: 10px;
+    }
+
+    .home .puzzle .animation{
+        width: 550px;
+        height: 550px;
+    }
+
+    .rating{
+        margin-top: 80px;
+        border-radius: 50px;
+        background: var(--background);
+        padding: 100px;
+        height: 100%;
+        width: 90%;
+        
+        max-width: 1500px;
+    }
+    
+    
+    .rating h2{
+        font-size: 45px;
+    }
+    
+    .rating .cards{
+        width: 70vw;
+    }
+    
+    .rating .cards .card{
+        width: 20vw;
+    }
+    
+    .rating .cards .card img.profile{
+        width: 6vw;
+        margin-top: -100px;
+        padding-bottom: 25px;
+    }
+    
+    .rating .cards .card h3{
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .rating .cards .card .stars img{
+        width: 18px;
+        padding-bottom: 30px;
+    }
+    
+    .rating .cards .card .message {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .rating .cards .card .message p{
+        width: 15vw;
+        font-size: 16px;
+    }
+
+    .contacts{
+        justify-content: flex-start;
+        margin-top: 80px;
+        width: 100%;
+        max-width: 2000px;
+        height: 65vh;
+        padding: 50px;
+    }
+    
+    .contacts h2{
+        font-size: 45px;
+    }
+    
+    .contacts .content{
+        display: flex;
+        gap: 100px;
+    }
+    
+    
+    .contacts .content .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+    
+    .contacts .content .contact .location, 
+    .contacts .content .contact .phone,
+    .contacts .content .contact .email,
+    .contacts .content .contact .whatsapp,
+    .contacts .content .contact .instagram {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 5px;
+    } 
+    
+    .contacts .contact svg{
+        width: 25px;
+    }
+    
+    .contacts .content .contact p{
+        font-size: 15px;
+    }
+
+    footer{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1900px){
+    .home .puzzle .animation{
+        width: 700px;
+        height: 700px;
+    }
+
+    .rating .cards .card img.profile{
+        width: 4vw;
+    }
+
+    .rating .cards .card{
+        width: 17vw;
+    }
+
+    .contacts .content{
+        gap: 300px;
+    }
+
+    .contacts .contact svg{
+        width: 35px;
+    }
+    
+    .contacts .content .contact p{
+        font-size: 20px;
+    }
+}
