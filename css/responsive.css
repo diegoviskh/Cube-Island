@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1200px){
     .home{
         width: 100%;
         flex-direction: column;
@@ -167,5 +167,111 @@
 
     footer{
         font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .rating h2{
+        font-size: 30px;
+    }
+
+    .rating .cards{
+        width: 90vw;
+    }
+    
+    .rating .cards .card{
+        display: flex;
+        width: 35vw;
+        border-radius: 10px;
+    
+        transition: transform 300ms;
+    }
+    
+    .rating .cards .card img.profile{
+        width: 12vw;
+        margin-top: -100px;
+        padding-bottom: 25px;
+    }
+    
+    .rating .cards .card h3{
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .rating .cards .card .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rating .cards .card .stars img{
+        width: 15px;
+        padding-bottom: 30px;
+    }
+    
+    .rating .cards .card .message {
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .rating .cards .card .message p{
+        width: 30vw;
+        font-size: 14px;
+    }
+
+    .contacts h2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .rating .cards .card img.profile{
+        width: 10vw;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .home h1{
+        font-size: 55px;
+    }
+    
+    .home p{
+        width: 80vw;
+        font-size: 16px;
+    }
+    
+    .home .puzzle-link a{
+        width: 60vw;
+        height: 7vh;
+        font-size: 25px;
+    }
+
+    .rating .cards .card img.profile{
+        width: 8vw;
+    }
+
+    .rating .cards .card{
+        display: flex;
+        width: 30vw;
+        border-radius: 10px;
+    
+        transition: transform 300ms;
+    }
+
+    .contacts .contact svg{
+        width: 30px;
+    }
+    
+    .contacts .content .contact p{
+        font-size: 18px;
+    }
+
+    footer{
+        font-size: 14px;
     }
 }
