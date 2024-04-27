@@ -8,6 +8,8 @@
     background: var(--background);
     height: 120vh;
     width: 85vw;
+    
+    max-width: 2000px;
 }
 
 

@@ -1,6 +1,7 @@
 .home{
     background: var(--background);
     width: 100%;
+    max-width: 2000px;
     height: 90vh;
     display: flex;
     flex-direction: row;
