@@ -204,7 +204,6 @@
 
     .video video{
         width: 100%;
-        height: 100%;
     }
     
     aside{
@@ -215,9 +214,13 @@
     aside .card:first-child{
         margin-top: 60px;
     }
+
+    aside .card:last-child{
+        margin-bottom: 60px;
+    }
     
     aside .card{
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -460,6 +463,26 @@
 
     footer{
         font-size: 16px;
+    }
+
+    .courses{
+        grid-template-areas: 
+        "nav nav"
+        "video aside"
+        "footer footer";
+    }
+
+    .video{
+        width: 70vw;
+    }
+
+    .video video{
+        width: 100%;
+        margin: -10px 10px 0 10px;
+    }
+
+    aside{
+        width: 30vw;
     }
 }
 
