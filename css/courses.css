@@ -28,7 +28,7 @@ body{
     color: #f3f2f2;
 }
 
-.home{
+.courses{
     width: 100%;
     height: 100%;
     display: grid;
@@ -81,6 +81,11 @@ nav .icons svg{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.video .loading .dragon{
+    width: 600px;
+    height: 600px;
 }
 
 .video .loading.invisible{
@@ -152,49 +157,4 @@ footer{
     background-color: #42008d;
     width: 100vw;
     height: 5vh;
-}
-
-@media only screen and (max-width: 1190px){
-
-    .home{
-        display: grid;
-        grid-template-areas: 
-        "nav"
-        "video" 
-        "aside"
-        "footer";
-    }
-
-    nav{
-        width: 100vw;
-    }
-
-    nav a h3{
-        font-size: 25px;
-    }
-
-    .loading .dragon{
-        display: none;
-    }
-
-    .loading h1{
-        text-align: center;
-    }
-
-    .video{
-        width: 100vw;
-        height: 45vh;
-    }
-
-    aside{
-        width: 100vw;
-    }
-
-    aside .card{
-        width: 60%;
-    }
-    
-    footer{
-        font-size: 14px;
-    }
 }
